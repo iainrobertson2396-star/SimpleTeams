@@ -1,0 +1,4 @@
+# When true, Minecraft's built-in /team command (and /minecraft:team) is redirected
+# to this plugin's /team command, so the vanilla scoreboard-team command can't be used.
+# Command blocks and datapack functions are not affected.
+redirect-vanilla-team: true

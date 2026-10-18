@@ -1,0 +1,10 @@
+name: SimpleTeams
+version: '${version}'
+main: dev.simpleteams.SimpleTeams
+api-version: '26.3'
+description: Player teams with friendly-fire protection.
+commands:
+  team:
+    description: Manage your team
+    usage: /team <create|invite|accept|deny|leave|kick|transfer|disband|info|list>
+    aliases: [teams]
